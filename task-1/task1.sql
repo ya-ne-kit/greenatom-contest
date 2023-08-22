@@ -1,0 +1,5 @@
+SELECT surname
+FROM Employees
+ORDER BY experience DESC
+OFFSET 1 ROW
+    FETCH FIRST 1 ROW ONLY;
